@@ -25,10 +25,6 @@ A library for executing command line commands in the Visual Basic programming la
 <h2>🤔 How to use the library</h2>
 1 - Import Namespace<br />
 
-
-
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+Imports CMDExecute
 ```
