@@ -24,10 +24,4 @@ A library for executing command line commands in the Visual Basic programming la
 
 <h2>🤔 How to use the library</h2>
 1 - Import Namespace<br />
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+`dfasdf `
