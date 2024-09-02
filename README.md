@@ -22,6 +22,6 @@ A library for executing command line commands in the Visual Basic programming la
 4 - Call the ExecuteAsync function on the created instance<br />
 5 - Give the function a string parameter as a command line command (For example = "start notepad")
 
-<h2>📷 Screenshots</h2>
-<img width="674" alt="Capture16" src="https://github.com/user-attachments/assets/60d526fb-2d8b-4a82-862c-b84dee0882f5">
-<img width="676" alt="Capture17" src="https://github.com/user-attachments/assets/e6797840-bd73-4fb2-949c-ad16a434b76e">
+<h2>🤔 How to use the library</h2>
+1 - Import Namespace
+`Imports CMDExecute`
