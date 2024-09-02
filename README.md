@@ -26,17 +26,33 @@ A library for executing command line commands in the Visual Basic programming la
 1 - Import Namespace<br />
 
 ```
-+ Imports CMDExecute
+Imports CMDExecute
 ```
 
 2 - Class Instantiation<br />
 
 ```
-+ Dim ex As Executor = New Executor()
+Dim ex As Executor = New Executor()
 ```
 
 3 - Function Call<br />
 
 ```
-+ ex.ExecuteAsync("start notepad")
+ex.ExecuteAsync("start notepad")
+```
+
+---
+Full Code
+```
+Imports CMDExecute
+Module Program
+
+    Sub Main()
+        Dim ex As Executor = New Executor()
+        ex.ExecuteAsync("start microsoft.windows.camera:")
+        Console.ReadKey()
+    End Sub
+
+End Module
+
 ```
