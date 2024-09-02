@@ -17,6 +17,7 @@
                                                       End Using
                                                   End Sub)
         Catch
+            Throw New Exception("Error - The command entered is invalid")
         End Try
     End Function
 End Class
