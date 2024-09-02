@@ -28,3 +28,15 @@ A library for executing command line commands in the Visual Basic programming la
 ```
 Imports CMDExecute
 ```
+
+2 - Class Instantiation<br />
+
+```
+Dim ex As Executor = New Executor()
+```
+
+3 - Function Call<br />
+
+```
+ex.ExecuteAsync("start notepad")
+```
